@@ -1,4 +1,4 @@
-# Vue-Library-Template
+# Vue2-Library-Template
 ## _Configured for all kinds of environments [prod, dev and local]_
 ## Features
 
@@ -7,11 +7,11 @@
 - Exports types automatically as .d.ts files using [vite-plugin-dts]
 - Configured with [vitest] for unit testing
 - Test components by importing them into index.ts file and running the command  ```yarn run dev```
-- No need to create seperate project to test the library
+- No need to create separate project to test the library
 
 ## Tech
 
-Vue-Library-Template uses a number of open source packages to create a production ready vue library:
+Vue2-Library-Template uses a number of open source packages to create a production ready vue library:
 
 - [Typescript] - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 - [Vue.js] - An approachable, performant and versatile framework for building web user interfaces.
@@ -21,7 +21,7 @@ Vue-Library-Template uses a number of open source packages to create a productio
 - [Husky] - Husky improves your commits and more 🐶 woof!
 - And many other plugins
 
-And of course Vue-Library-Template itself is open source with a [public repository][VLT] on GitHub.
+And of course Vue2-Library-Template itself is open source with a [public repository][VLT] on GitHub.
 
 ## Installation
 Requires [Node.js](https://nodejs.org/) v10+ to run.
@@ -29,11 +29,11 @@ Requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and devDependencies and start the server.
 HTTPS:
 ```sh
-git clone https://github.com/ssrbloginsoft/vue-library-template.git 
+git clone https://github.com/ssrbloginsoft/vue2-library-template.git 
 ```
 SSH:
 ```sh
-git clone git@github.com:ssrbloginsoft/vue-library-template.git
+git clone git@github.com:ssrbloginsoft/vue2-library-template.git
 ```
 #### _Install_
 ```sh 
@@ -59,9 +59,9 @@ For running linter:
 yarn run lint
 ```
 #### _Creating a component_
-Create a new component in components folder with ```.vue``` extention and export the component in ```main.ts```:
+Create a new component in components folder with ```.vue``` extension and export the component in ```main.ts```:
 ```ts 
-export { default as Image } from "@components/Image.vue";
+export { default as ImageComponent } from "@components/ImageComponent.vue";
 ```
 By running the build command a dist folder will be generated
 
@@ -79,7 +79,7 @@ MIT
 
 **Free Software, Hell Yeah!**
 
-   [VLT]: <https://github.com/ssrbloginsoft/vue-library-template>
+   [VLT]: <https://github.com/ssrbloginsoft/vue2-library-template>
    [vite.dev]: <https://github.com/joemccann/dillinger>
    [vite-plugin-dts]: <https://github.com/qmhc/vite-plugin-dts>
    [vitest]: <https://vitest.dev/>
